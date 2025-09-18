@@ -1,0 +1,127 @@
+// input output
+
+import 'dart:io';
+
+void main() {
+
+  print('Welcome to dart ');
+  stdout.write('Enter your name : ');
+  var name = stdin.readLineSync();
+  print('Welcome  $name');
+
+}
+
+
+..................................................
+..................................................
+
+
+// dynamic var
+
+
+import 'dart:io';
+
+void main() {
+  print('Welcome to dart ');
+
+var section;
+section ="GAlib";
+print(section);
+section=10;
+print(section);
+section= "This is ana de armas";
+print(section);
+}
+
+
+..............................................
+...............................................
+
+
+
+
+// function calling with class 
+
+
+
+import 'dart:io';
+
+void main() {
+  print('Welcome to dart ');
+
+ var myC= myClass();
+ myC.printName();  // Function Calling
+
+}
+class myClass{
+
+  void printName(){
+
+    print("Ws cube Tech");
+  }
+}
+
+
+
+............................................................
+............................................................
+
+
+// function calling 
+
+
+import 'dart:io';
+
+void main() {
+  print('Welcome to dart ');
+
+ var myC= myClass();
+ myC.printName("Ws Cube Tech");  // Function Calling
+  myC.printName("Ana de Armas");
+  myC.printName("Galib MAhmud");
+
+
+}
+class myClass{
+
+  void printName(String name){
+
+    print(name);
+  }
+}
+
+import 'dart:io';
+
+void main() {
+  print('Welcome to dart ');
+
+ var myC= myClass();
+ myC.printName("Ws Cube Tech");  // Function Calling
+  myC.printName("Ana de Armas");
+  myC.printName("Galib MAhmud");
+
+ print ("Sum is : ${myC.Add()}") ;
+
+
+}
+class myClass{
+
+  void printName(String name){
+
+    print(name);
+  }
+  int Add(){
+    int a=5,b=6;
+    int sum =a+b;
+    return sum;
+
+  }
+}
+
+
+........................................................
+........................................................
+
+
+
+

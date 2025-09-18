@@ -1,0 +1,32 @@
+import 'dart:io';
+
+void main() {
+  var galiB = Galib();
+  galiB.printName();
+  galiB.Init();
+  galiB.Dot();
+  galiB.Add();
+
+}
+class Galib{
+  void printName(){
+    print('This Is Galib Mahmud');
+  }
+  void Init(){
+    print("I Want to exit");
+  }
+  void  Dot(){
+    print("this is Galib Mahmud");
+
+
+  }
+   Add(){
+    stdout.write("Enter Your Name :");
+    String? name = stdin.readLineSync();
+    print("Hello $name");
+    stdout.write("Enter your age :");
+    int age =int.parse(stdin.readLineSync()!);
+    print('$name you are $age years old');
+
+}
+}
